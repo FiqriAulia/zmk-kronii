@@ -51,7 +51,8 @@
 
         cabron {
             bindings = <&macron>;
-            key-positions = <6 28>;
+            key-positions = <28 13 0>;
+            layers = <0>;
         };
     };
 
