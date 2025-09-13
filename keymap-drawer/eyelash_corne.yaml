@@ -197,5 +197,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [6, 28]
+- p: [28, 13, 0]
   k: '&macron'
+  l: [QWERTY]
