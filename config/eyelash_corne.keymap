@@ -51,7 +51,7 @@
 
         cabron {
             bindings = <&macron>;
-            key-positions = <6 44 45>;
+            key-positions = <6 28>;
         };
     };
 
@@ -59,7 +59,7 @@
         macron: macron {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp N2 &kp N6 &kp A &kp P &kp R &kp I &kp L &kp L &kp RET>;
+            bindings = <&kp N2 &kp N6 &kp A &kp P &kp R &kp I &kp L &kp L &kp RET>;
             label = "MACRON";
         };
     };
